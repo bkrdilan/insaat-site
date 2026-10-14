@@ -1,5 +1,12 @@
 [
   {
+    "id": "a8b7d863-d38e-4cb1-9b9b-c0b7f6955eb4",
+    "title": "ev",
+    "description": "evvvv",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFcev0buY0tUqlF4U6Z80iKmZCbfJUC5uTysNSWblBvA&s",
+    "price": "10000"
+  },
+  {
     "id": 1,
     "title": "Modern Yaşam Alanı",
     "description": "Günlük yaşamı kolaylaştıran, estetiği ön planda tutan modern bir konut tasarımı.",
