@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Yaşam Alanı",
+    "description": "Günlük yaşamı kolaylaştıran, estetiği ön planda tutan modern bir konut tasarımı.",
+    "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=80",
+    "price": "₺1.250.000"
+  },
+  {
+    "id": 2,
+    "title": "Çağdaş Mimari",
+    "description": "Doğal ışık, sade çizgiler ve yüksek konfor odaklı modern yaşam alanı.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    "price": "₺1.860.000"
+  },
+  {
+    "id": 3,
+    "title": "İş ve Yaşam Merkezi",
+    "description": "İşlevsellik, kullanıcı deneyimi ve estetik hedeflerin birlikte planlandığı ticari proje.",
+    "image": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=80",
+    "price": "₺2.320.000"
+  }
+]
