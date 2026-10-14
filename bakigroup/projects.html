@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101c2b">
+    <meta name="description" content="Baki Group projeleri — inşaat, mimari ve taahhüt alanında tamamlanan işler ve örnek projeler." />
+    <title>Baki Group | Projelerimiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="page-shell">
+    <a class="skip-link" href="#ana-icerik">İçeriğe geç</a>
+
+    <header class="site-header page-header" id="ust">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Baki Group ana sayfa">
+          <span class="brand-mark" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </span>
+          <span class="brand-name">BAKİ<span>GROUP</span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Menüyü aç"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-navigation" id="site-navigation" aria-label="Ana menü">
+          <a href="index.html">Ana Sayfa</a>
+          <a href="about.html">Hakkımızda</a>
+          <a href="services.html">Hizmetlerimiz</a>
+          <a href="projects.html">Projelerimiz</a>
+          <a href="contact.html">İletişim</a>
+          <a class="button button-small button-red nav-cta" href="contact.html">İletişime Geç</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="ana-icerik">
+      <section class="page-hero" aria-labelledby="page-title">
+        <div class="container page-hero-inner">
+          <div>
+            <p class="eyebrow eyebrow-light"><span></span> BAKİ GROUP · PROJELER</p>
+            <h1 id="page-title">Yaratıcı fikirler,<br>sağlam uygulamalar.</h1>
+            <p>
+              Her işte detaylara dikkat eden yaklaşımımız, estetik kaygı, modern çözümler ve güvenli uygulama anlayışıyla birlikte yürür.
+            </p>
+          </div>
+          <div class="page-hero-badge">Özenle tamamlanan işler</div>
+        </div>
+      </section>
+
+      <section class="section-space" aria-labelledby="projects-heading">
+        <div class="container">
+          <div class="project-toolbar reveal">
+            <div>
+              <p class="eyebrow"><span></span> SEÇİLMİŞ ÇALIŞMALAR</p>
+              <h2 id="projects-heading" class="section-heading-h2">Projelerimiz</h2>
+            </div>
+            <div class="project-filter" aria-label="Proje filtreleri">
+              <button class="filter-button is-active" type="button" data-filter="all">Tümü</button>
+              <button class="filter-button" type="button" data-filter="konut">Konut</button>
+              <button class="filter-button" type="button" data-filter="ticari">Ticari</button>
+              <button class="filter-button" type="button" data-filter="mimari">Mimari</button>
+              <button class="filter-button" type="button" data-filter="restorasyon">Restorasyon</button>
+            </div>
+          </div>
+
+          <div class="project-list">
+            <article class="project-card reveal" data-category="konut">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=80" alt="Modern konut projesi" loading="lazy">
+                <span class="project-tag">Konut</span>
+              </div>
+              <div class="project-info">
+                <span class="project-category">KONUT PROJESİ</span>
+                <h3>Modern Yaşam Alanı</h3>
+                <p>Living, çalışma ve dinlenme ihtiyaçlarını tek bir tasarım diliyle birleştiren modern bir konut yaklaşımı.</p>
+                <a class="text-link project-link" href="project-detail.html">Detayları gör <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="mimari">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Modern mimari ev" loading="lazy">
+                <span class="project-tag">Mimari</span>
+              </div>
+              <div class="project-info">
+                <span class="project-category">MİMARİ UYGULAMA</span>
+                <h3>Çağdaş Mimari</h3>
+                <p>Cam, metal ve doğal dokuların uyumlu kullanımıyla öne çıkan özelleştirilmiş bir yaşam alanı.</p>
+                <a class="text-link project-link" href="project-detail.html">Detayları gör <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="ticari">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=80" alt="Ticari yapı projesi" loading="lazy">
+                <span class="project-tag">Ticari</span>
+              </div>
+              <div class="project-info">
+                <span class="project-category">TİCARİ YAPI</span>
+                <h3>İş ve Yaşam Merkezi</h3>
+                <p>İşlevsellik, estetik ve kullanıcı deneyimini birlikte düşünerek tasarlanan çok amaçlı bir yapı.</p>
+                <a class="text-link project-link" href="project-detail.html">Detayları gör <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="restorasyon">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Restorasyon yapılan bina" loading="lazy">
+                <span class="project-tag">Restorasyon</span>
+              </div>
+              <div class="project-info">
+                <span class="project-category">RESTORASYON</span>
+                <h3>Kültürel Mirasın Yeniden Doğuşu</h3>
+                <p>Mevcut yapının karakterini koruyarak yeni işlevler kazandıran dikkatli bir restorasyon süreci.</p>
+                <a class="text-link project-link" href="project-detail.html">Detayları gör <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="ticari">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1200&q=80" alt="Ofis ve showroom tasarımı" loading="lazy">
+                <span class="project-tag">Ticari</span>
+              </div>
+              <div class="project-info">
+                <span class="project-category">SHOWROOM</span>
+                <h3>Marka Merkezli Tasarım</h3>
+                <p>Bir markanın kimliğini yansıtan, ziyaretçi deneyimini güçlendiren mekan çözümleri.</p>
+                <a class="text-link project-link" href="project-detail.html">Detayları gör <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="konut">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80" alt="Lüks villa tasarımı" loading="lazy">
+                <span class="project-tag">Konut</span>
+              </div>
+              <div class="project-info">
+                <span class="project-category">VİLLA</span>
+                <h3>Günışığı ve Manzara</h3>
+                <p>Açık alan, doğal ışık ve konfor odaklı kullanım dengesiyle tasarlanmış özel yaşam alanı.</p>
+                <a class="text-link project-link" href="project-detail.html">Detayları gör <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-space">
+        <div class="container">
+          <div class="page-cta reveal">
+            <div class="contact-inner">
+              <div>
+                <p class="eyebrow eyebrow-light"><span></span> BİRLİKTE ÇALIŞALIM</p>
+                <h2>Bir sonraki projeniz için bizimle konuşun.</h2>
+                <p>İhtiyaçlarınızı paylaşın; doğru planla ve güvenli uygulamayla birlikte adım atalım.</p>
+              </div>
+              <a class="button button-light" href="contact.html">İletişime geç <span class="button-arrow" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="iletisim-bilgileri">
+      <div class="container footer-main">
+        <div class="footer-brand">
+          <a class="brand brand-footer" href="index.html" aria-label="Baki Group ana sayfa">
+            <span class="brand-mark" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </span>
+            <span class="brand-name">BAKİ<span>GROUP</span></span>
+          </a>
+          <p>Güvenle inşa edilen yarınlar.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Keşfedin</h2>
+          <a href="about.html">Hakkımızda</a>
+          <a href="services.html">Hizmetlerimiz</a>
+          <a href="projects.html">Projelerimiz</a>
+        </div>
+        <div class="footer-column footer-contact">
+          <h2>İletişim</h2>
+          <p>Telefon: <span>Bilgi eklenecek</span></p>
+          <p>E-posta: <span>Bilgi eklenecek</span></p>
+          <p>Adres: <span>Bilgi eklenecek</span></p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="current-year"></span> Baki Group. Tüm hakları saklıdır.</p>
+        <a href="#ust">Başa dön <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
